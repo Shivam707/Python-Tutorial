@@ -30,7 +30,7 @@ print(dict)
 
 copyDict = dict # this is not recommended at all, copyDict is not a different dictionary, it is just a reference to dict.
 
-# if you make any changes to copprintyDict, it will also reflect the changes to the dict
+# if you make any changes to copyDict, it will also reflect the changes to the dict
 
 newDict = dict.copy() # this is how you should copya dictionary
 
